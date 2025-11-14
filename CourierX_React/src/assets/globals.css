@@ -1,0 +1,316 @@
+/* css starter styles */
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+:root {
+  --dark-grey: #bf2424;
+  --medium-grey: #853535;
+  --light-grey: #eeeeee;
+  --medium-light-grey: #cccccc;
+  --very-light-grey: #bbbbbb;
+  --ash: #f4f4f4;
+  --primary-color: #052957;
+  --primary-rgb-color: 43, 114, 251;
+  --primary-bg-color: #68af72;
+  --text-primary-color: #5b7dd4;
+  --text-secondary-color: #0f187a;
+  --success-color: #052957;
+  --white: white;
+  --border: 1px solid var(--light-grey);
+  --shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+body {
+  font-family: inherit;
+  background-color: var(--white);
+  color: var(--medium-grey);
+  letter-spacing: -0.4px;
+  font-size: 16px;
+}
+/* Remove default margin and padding */
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: inherit;
+}
+
+/* Add border box to images */
+img {
+  border: 0;
+}
+
+/*styling the text */
+
+h1 {
+  font-size: 5.8rem;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 3.2rem;
+  margin-bottom: 2rem;
+}
+
+/* Remove anchor text decoration */
+a {
+  text-decoration: none;
+  line-height: 0;
+}
+
+/* Remove list styles */
+ul,
+ol,
+li {
+  list-style: none;
+  margin: 0;
+}
+
+/*common styling across all the pages*/
+
+/* CSS */
+button {
+  background-color: var(--primary-color);
+  border-radius: 2.4rem;
+  border-style: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  flex-shrink: 0;
+  font-size: 1.6rem;
+  font-weight: 400;
+  height: 4rem;
+  padding: 0.3rem 1.2rem;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+  transition: all 0.5s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  /*letter-spacing: -0.1rem;*/
+}
+
+button:hover {
+  background-color: var(--primary-color);
+  border: 0.1rem solid var(--white);
+  color: var(--white);
+  transition-duration: 0.1s;
+}
+
+@media (min-width: 768px) {
+  button {
+    padding: 0 2.6rem;
+  }
+}
+
+/* Default Styles */
+
+.btn {
+  display: block;
+  background-color: var(--primary-color);
+  color: var(--white);
+  text-align: center;
+  padding: 0.6rem 1.4rem;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.icon {
+  padding: 0.5rem;
+  background-color: var(--light-grey);
+  border-radius: 10px;
+}
+
+.logo {
+  margin-right: 1.5rem;
+}
+
+.section-heading {
+  text-align: left;
+  margin: 30px auto 0px;
+  font-size: 3.5rem;
+  color: var(--text-primary-color);
+  /* padding-left: 185px; */
+  position: relative;
+
+  max-width: 1300px;
+  /* margin: 0 auto; */
+  overflow: auto;
+  padding: 20px 40px;
+}
+
+.section-heading::after {
+  content: "";
+  position: absolute;
+  top: 5px;
+  bottom: 15px;
+  left: 45px;
+  width: 45px;
+  border-bottom: 5px solid var(--primary-color);
+}
+
+#nav-menu {
+  border-bottom: var(--border);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 2rem;
+  height: auto;
+  max-width: 1300px;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 20px 40px;
+}
+
+/* .main__wrapper {
+  max-width: 1300px;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 20px 40px;
+} */
+.section {
+  padding: 25px 0px 75px;
+}
+.main__wrapper {
+  max-width: 1300px;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 20px 40px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.input_style {
+  padding: 15px 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Helper Classes */
+
+.btn-success {
+  background-color: var(--success-color);
+  color: var(--white);
+}
+.text-center {
+  text-align: center;
+}
+
+.mb-5 {
+  margin-bottom: 1rem;
+}
+.grid-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid-5 {
+  grid-template-columns: repeat(5, 1fr);
+}
+.grid-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+/* css for make hero heading upper */
+
+.hero .grid {
+  grid-template-columns: 4fr 3fr;
+  align-items: start;
+}
+
+/* css for client section */
+
+.clients .main__wrapper {
+  overflow: hidden;
+}
+
+/* css for go to top button */
+
+.go-to-top-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.top-btn {
+  font-size: 2.4rem;
+  width: 6rem;
+  height: 6rem;
+  color: #fff;
+  background-color: var(--primary-color);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  position: fixed;
+  bottom: 5rem;
+  right: 5rem;
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.top-btn--icon {
+  animation: gototop 1.2s linear infinite alternate-reverse;
+}
+@keyframes gototop {
+  0% {
+    transform: translateY(-0.5rem);
+  }
+  100% {
+    transform: translateY(1rem);
+  }
+}

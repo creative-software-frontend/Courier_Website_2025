@@ -1,0 +1,63 @@
+  const courierPricing = [
+  {
+    "Same Day": [
+      { name: "Up To 1 (KG)", price: "৳ 150.00" },
+      { name: "Up To 2 (KG)", price: "৳ 170.00" },
+      { name: "Up To 3 (KG)", price: "৳ 190.00" },
+      { name: "Up To 4 (KG)", price: "৳ 210.00" },
+      { name: "Up To 5 (KG)", price: "৳ 230.00" },
+      { name: "Up To 6 (KG)", price: "৳ 250.00" },
+      { name: "Up To 7 (KG)", price: "৳ 270.00" },
+      { name: "Up To 8 (KG)", price: "৳ 290.00" },
+      { name: "Up To 9 (KG)", price: "৳ 310.00" },
+      { name: "Up To 10 (KG)", price: "৳ 330.00" },
+      { name: "Up To 15 (KG)", price: "৳ 430.00" },
+    ],
+  },
+  {
+    "Next Day": [
+      { name: "Up To 1 (KG)", price: "৳ 60.00" },
+      { name: "Up To 2 (KG)", price: "৳ 80.00" },
+      { name: "Up To 3 (KG)", price: "৳ 100.00" },
+      { name: "Up To 4 (KG)", price: "৳ 120.00" },
+      { name: "Up To 5 (KG)", price: "৳ 140.00" },
+      { name: "Up To 6 (KG)", price: "৳ 160.00" },
+      { name: "Up To 7 (KG)", price: "৳ 180.00" },
+      { name: "Up To 8 (KG)", price: "৳ 200.00" },
+      { name: "Up To 9 (KG)", price: "৳ 220.00" },
+      { name: "Up To 10 (KG)", price: "৳ 240.00" },
+      { name: "Up To 15 (KG)", price: "৳ 340.00" },
+    ],
+  },
+  {
+    "Sub City": [
+      { name: "Up To 1 (KG)", price: "৳ 100.00" },
+      { name: "Up To 2 (KG)", price: "৳ 120.00" },
+      { name: "Up To 3 (KG)", price: "৳ 140.00" },
+      { name: "Up To 4 (KG)", price: "৳ 160.00" },
+      { name: "Up To 5 (KG)", price: "৳ 180.00" },
+      { name: "Up To 6 (KG)", price: "৳ 200.00" },
+      { name: "Up To 7 (KG)", price: "৳ 220.00" },
+      { name: "Up To 8 (KG)", price: "৳ 240.00" },
+      { name: "Up To 9 (KG)", price: "৳ 260.00" },
+      { name: "Up To 10 (KG)", price: "৳ 280.00" },
+      { name: "Up To 15 (KG)", price: "৳ 380.00" },
+    ],
+  },
+  {
+    "Outside City": [
+      { name: "Up To 1 (KG)", price: "৳ 130.00" },
+      { name: "Up To 2 (KG)", price: "৳ 150.00" },
+      { name: "Up To 3 (KG)", price: "৳ 170.00" },
+      { name: "Up To 4 (KG)", price: "৳ 190.00" },
+      { name: "Up To 5 (KG)", price: "৳ 210.00" },
+      { name: "Up To 6 (KG)", price: "৳ 230.00" },
+      { name: "Up To 7 (KG)", price: "৳ 250.00" },
+      { name: "Up To 8 (KG)", price: "৳ 270.00" },
+      { name: "Up To 9 (KG)", price: "৳ 290.00" },
+      { name: "Up To 10 (KG)", price: "৳ 310.00" },
+      { name: "Up To 15 (KG)", price: "৳ 410.00" },
+    ],
+  },
+];
+export default courierPricing;

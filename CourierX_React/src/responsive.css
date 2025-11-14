@@ -1,0 +1,366 @@
+@media only screen and (max-width: 600px) {
+  .section-heading {
+    font-size: 3rem;
+  }
+  .process-col .box {
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .process-col {
+    margin-bottom: 20px;
+  }
+  .footer::before {
+    top: 180px;
+  }
+  .footer .content .link-boxes {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .link-boxes .box .link_name::before {
+    left: 20px;
+    bottom: -2px;
+  }
+  .link-boxes .box .footer_services::before {
+    left: 70px;
+    bottom: -2px;
+  }
+  .link-boxes .box .footer_subscribe::before {
+    left: 124px;
+    bottom: -2px;
+  }
+
+  .footer .content .link-boxes .box {
+    width: auto;
+  }
+  .content .link-boxes .box .link_name {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .content .link-boxes .box li a {
+    font-size: 14px;
+  }
+  .wrapper_subscribe .link_name {
+    width: 280px;
+  }
+  .footer .bottom-details .bottom_text {
+    flex-direction: column;
+    text-align: center;
+  }
+  .copyright_text {
+    font-size: 16px !important;
+  }
+  .copyright_text a {
+    font-size: 16px !important;
+  }
+  .charge__conditions p {
+    font-size: 16px;
+  }
+  .charge__options {
+    grid-auto-flow: row;
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+  .charge__select {
+    margin: 50px 10%;
+    margin-bottom: 0px;
+    margin-top: 10px;
+  }
+  .charge__select:after {
+    right: 30px;
+    top: 42px;
+  }
+  .charge__price {
+    margin-top: 30px;
+  }
+  .charge__select select {
+    width: 245px;
+    max-width: 340px;
+  }
+  .achievements__container {
+    grid-auto-flow: row;
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+  .achievements {
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  .service__section .row {
+    flex-direction: column;
+  }
+  .service__column {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .feature .row .col-lg-4 {
+    margin-bottom: 15px;
+  }
+  .feature-row-2 {
+    margin-top: 0px !important;
+  }
+  .client-img-wrapper img {
+    height: 40px !important;
+    object-fit: contain !important;
+    width: 60px !important;
+  }
+  .hero_image img {
+    display: none;
+  }
+  .custom-shape-divider-bottom-1693893636 {
+    display: none;
+  }
+  .tracking {
+    margin-top: 10px !important;
+  }
+  .tracking__form {
+    flex-direction: column;
+  }
+  .tracking__code {
+    width: 200px !important;
+    border: 1px solid grey;
+    border-radius: 5px;
+  }
+  .tracking__wrapper {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+  }
+  .tracking {
+    padding: 10px 20px !important;
+  }
+  .customer-care {
+    display: none;
+  }
+  .authentication {
+    display: none;
+  }
+  .navbarList {
+    left: -675px;
+    top: -40px;
+  }
+  .navbarList a {
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: #2314af;
+    padding: 1.3rem 1rem;
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+  }
+  .mobile-navbar-btn svg {
+    color: white;
+  }
+  .mobile-navbar-btn {
+    margin-left: 30px;
+    margin-right: 0px;
+  }
+  .navbar .menu {
+    margin-right: 0px !important;
+  }
+  .about p,
+  .vision p {
+    text-align: justify;
+  }
+  .team div {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact__hero img {
+    display: none;
+  }
+  .contact__hero__wrapper div {
+    display: none;
+  }
+  .contact__hero__wrapper h1 {
+    text-align: center;
+  }
+  .contact__hero__wrapper {
+    grid-auto-flow: row;
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+  .branches .grid {
+    grid-auto-flow: row;
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+  .mobile-auth,
+  .mobile-care {
+    display: block;
+    visibility: visible;
+  }
+  .accordion-wrapper .grid {
+    grid-auto-flow: row;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .footer .content {
+    /* max-width: 100px; */
+    /* margin: auto; */
+    padding: 30px 10px 10px 10px;
+  }
+  .process .section-heading {
+    font-size: 27px;
+    padding: 20px 20px;
+  }
+  .section-heading {
+    font-size: 27px;
+    padding: 20px 20px;
+  }
+  .tracking {
+    padding: 15px;
+  }
+  .tracking__wrapper {
+    padding: 40px 15px 40px;
+  }
+  .tracking__code {
+    width: 200px !important;
+    border: none;
+  }
+  .tracking__form button {
+    margin-right: 3px;
+  }
+  .hero-section {
+    padding: 20px 30px;
+  }
+  .pricing .wrapper {
+    padding: 20px 20px;
+  }
+  .section-heading::after {
+    left: 25px;
+  }
+  .feature .accordion__container {
+    margin-top: 20px;
+    padding: 20px;
+  }
+  .tracking__wrapper {
+    margin-top: 50px;
+  }
+  .service .container {
+    padding: 20px 20px;
+  }
+  .main__wrapper {
+    padding: 20px 20px;
+  }
+  .clients {
+    padding-bottom: 10px;
+  }
+  .clients .section-heading {
+    margin-top: 0px;
+  }
+  .calculate-charge .section-heading {
+    padding-left: 20px !important;
+  }
+  .calculate-charge .section-heading::after {
+    left: 20px !important;
+  }
+  .calculate-charge .nav-pills {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+  }
+  .tab-pane .card {
+    margin-right: 15px !important;
+  }
+  .tab-content {
+    margin-left: 18px !important;
+    height: 600px !important;
+  }
+  .tab-pane .card div h2 {
+    font-size: 28px !important;
+  }
+  .main_header {
+    padding: 0 2rem;
+  }
+  .tracking__form {
+    border: none;
+    align-items: center;
+  }
+  .tracking__text {
+    flex-direction: column;
+  }
+  .tracking__text h4 {
+    text-align: center !important;
+  }
+
+  .tracking__form:focus {
+    border: none;
+  }
+  .tracking__form .tracking_input_wrapper {
+    height: 45px;
+  }
+  .tracking__code {
+    border: 1px solid var(--primary-color);
+    width: 270px !important;
+  }
+  .tracking__code:focus-within {
+    border: 1px solid var(--primary-color);
+  }
+  .tracking__form:focus-within {
+    outline: none;
+  }
+  .tracking_company_info {
+    flex-direction: column;
+  }
+  .tracking_company_info_wrapper .col-lg-12 {
+    padding: 0px;
+  }
+  .tracking_company_info div h1 {
+    font-size: 36px !important;
+    text-align: center;
+  }
+  .tracking_company_info div span {
+    text-align: center;
+    display: block;
+    font-size: 14px;
+  }
+  .tracking_company_info p {
+    font-size: 16px !important;
+  }
+  .tracking_company_info svg {
+    font-size: 26px !important;
+  }
+  .tracking-address {
+    align-items: start !important;
+  }
+  .tracking_title_address {
+    order: 2;
+  }
+  .tracking_comapny_logo_wrapper {
+    order: 1 !important;
+    margin-bottom: 10px;
+  }
+  .tracking_comapny_logo_wrapper img {
+    height: 120px !important;
+    width: 200px !important;
+    object-fit: cover !important;
+    border-radius: 8px !important;
+  }
+  .tracking_social {
+    flex-direction: column;
+    gap: 5px;
+  }
+  .order-details-wrapper .col-lg-12 {
+    padding: 0px;
+    overflow: scroll;
+  }
+  .tracking_table thead tr th {
+    vertical-align: middle;
+  }
+  .order-details-wrapper .card {
+    border: none;
+    padding: 0px !important;
+    box-shadow: none;
+  }
+  .order-main-track h3 {
+    padding: 0px !important;
+  }
+  .history-tl-container {
+    width: auto;
+  }
+  .history-tl-container ul.tl li {
+    margin-left: 150px;
+  }
+
+  /* .tracking__form button {
+    width: 120px !important;
+  } */
+}
