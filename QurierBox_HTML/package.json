@@ -4,9 +4,9 @@
   "description": "Landing, Responsive & Business Template",
   "main": "gulpfile.js",
   "scripts": {
-    "start": "gulp",
-    "build": "cross-env MODE=PROD gulp build",
-    "build:test": "cross-env MODE=PROD gulp build:test",
+    "start": "node init && gulp",
+    "build": "node init && cross-env MODE=PROD gulp build",
+    "build:test": "node init && cross-env MODE=PROD gulp build:test",
     "live": "gulp compile:all && cross-env MODE=PROD gulp live",
     "publish": "git subtree push --prefix live origin gh-pages",
     "localhost": "ssh -R 80:localhost:3000 ssh.localhost.run",
